@@ -43,7 +43,7 @@ export default function Bottle({
                      bg-gray-200 transition-all duration-200 focus:ring-2 focus:ring-pink-500 
                      disabled:opacity-60 disabled:cursor-not-allowed"
           style={{
-            background: `linear-gradient(to right, #ec4899 ${internalValue}%, #e5e7eb ${internalValue}%)`,
+                background: `linear-gradient(to right, #ec4899 ${(internalValue / 10) * 100}%, #e5e7eb ${(internalValue / 10) * 100}%)`,
           }}
         />
         <div className="flex justify-between text-xs sm:text-sm text-gray-800 mt-2 font-semibold">
