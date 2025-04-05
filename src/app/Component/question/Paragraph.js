@@ -20,7 +20,7 @@ export default function Paragraph({ questiontext, is_required, preview = false, 
 
   return (
     <div className="mb-6 px-2 sm:px-0">
-      <p className={`font-semibold text-lg sm:text-xl flex items-center mb-2 ${pacifico.className}`}>
+      <p className={`text-gray-900 font-semibold text-lg sm:text-xl flex items-center mb-2 ${pacifico.className}`}>
         {questiontext} {is_required && <span className="text-red-500 text-lg sm:text-xl">*</span>}
       </p>
       <textarea
@@ -28,7 +28,7 @@ export default function Paragraph({ questiontext, is_required, preview = false, 
           value={text}
           onChange={handleChange}
           disabled={preview}
-          className="w-full p-3 sm:p-4 border border-gray-200 rounded-lg text-gray-800 text-base shadow-md 
+          className="text-gray-900 w-full p-3 sm:p-4 border border-gray-200 rounded-lg text-gray-800 text-base shadow-md 
                     focus:ring-2 focus:ring-pink-500 focus:border-pink-500 focus:outline-none 
                     transition-all duration-300 resize-y disabled:opacity-60 disabled:cursor-not-allowed hover:shadow-lg"
           rows="4"
