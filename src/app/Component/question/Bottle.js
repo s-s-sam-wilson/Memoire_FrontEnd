@@ -48,8 +48,8 @@ export default function Bottle({
         />
         <div className="flex justify-between text-xs sm:text-sm text-gray-800 mt-2 font-semibold">
           <span>0</span>
-          <span>50</span>
-          <span>100</span>
+          <span>5</span>
+          <span>10</span>
         </div>
       </div>
     </div>
