@@ -11,7 +11,7 @@ export default function MCQ({ questiontext, options, is_required, preview = fals
 
   return (
     <div className="mb-6 px-2 sm:px-0">
-      <p className={`font-semibold text-lg sm:text-xl flex items-center mb-2 ${pacifico.className}`}>
+      <p className={`text-gray-900 font-semibold text-lg sm:text-xl flex items-center mb-2 ${pacifico.className}`}>
         {questiontext} {is_required && <span className="text-red-500 text-lg sm:text-xl">*</span>}
       </p>
       <div className="mt-2 space-y-3">
