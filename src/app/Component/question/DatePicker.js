@@ -29,7 +29,7 @@ export default function DatePicker({ questiontext, is_required, preview = false,
         value={internalValue}
         onChange={handleChange}
         disabled={preview}
-        className="w-full border border-gray-300 rounded-lg p-3 text-base sm:text-lg 
+        className="text-gray-900 w-full border border-gray-300 rounded-lg p-3 text-base sm:text-lg 
                   shadow-sm focus:ring-2 focus:ring-pink-500 focus:outline-none focus:border-pink-500
                   transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed bg-white"
       />
