@@ -21,7 +21,7 @@ export default function ShortAnswer({ questiontext, is_required, preview = false
 
   return (
     <div className="mb-6 px-2 sm:px-0">
-      <p className={`text-gray-900 font-semibold text-base sm:text-lg flex items-center mb-2 ${pacifico.className}`}>
+      <p className={`text-gray-900 text-gray-900 font-semibold text-base sm:text-lg flex items-center mb-2 ${pacifico.className}`}>
         {questiontext} {is_required && <span className="text-red-500 text-lg sm:text-xl">*</span>}
       </p>
       <input
